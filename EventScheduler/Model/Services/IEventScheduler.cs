@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace EventScheduler.Model.Services
 {
-    internal interface IEventSheduler
+    internal interface IEventScheduler
     {
         public void AddEvent(Event @event);
         public Event FindEvent(string title, DateTime startDate);
